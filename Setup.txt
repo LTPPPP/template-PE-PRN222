@@ -1,0 +1,15 @@
+dotnet down : 
+
+dotnet tool install --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+database first :
+
+dotnet ef dbcontext scaffold "Server=LTP; Database=BrainStormEra;User ID=sa;Password=01654460072ltp;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+
+Code first : 
+
+dotnet ef migrations add InitProductDB --project ../DataAccessLayer --startup-project ../WebRazorPage
+

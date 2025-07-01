@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\webmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\webmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890F5C40-4A60-4093-816B-33BD0C3EE0D0}|WebBlazor\\WebBlazor.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webblazor\\webblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{890F5C40-4A60-4093-816B-33BD0C3EE0D0}|WebBlazor\\WebBlazor.csproj|solutionrelative:webblazor\\webblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890F5C40-4A60-4093-816B-33BD0C3EE0D0}|WebBlazor\\WebBlazor.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{890F5C40-4A60-4093-816B-33BD0C3EE0D0}|WebBlazor\\WebBlazor.csproj|solutionrelative:webblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D76C89-310D-49D6-B855-1A9CD46DE0B5}|WebRazor\\WebRazor.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webrazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D76C89-310D-49D6-B855-1A9CD46DE0B5}|WebRazor\\WebRazor.csproj|solutionrelative:webrazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D76C89-310D-49D6-B855-1A9CD46DE0B5}|WebRazor\\WebRazor.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webrazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99D76C89-310D-49D6-B855-1A9CD46DE0B5}|WebRazor\\WebRazor.csproj|solutionrelative:webrazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{890F5C40-4A60-4093-816B-33BD0C3EE0D0}|WebBlazor\\WebBlazor.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webblazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{890F5C40-4A60-4093-816B-33BD0C3EE0D0}|WebBlazor\\WebBlazor.csproj|solutionrelative:webblazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebMVC",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\WebMVC.csproj",
+              "RelativeDocumentMoniker": "WebMVC\\WebMVC.csproj",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\WebMVC.csproj",
+              "RelativeToolTip": "WebMVC\\WebMVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T15:41:18.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebBlazor",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\WebBlazor.csproj",
+              "RelativeDocumentMoniker": "WebBlazor\\WebBlazor.csproj",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\WebBlazor.csproj",
+              "RelativeToolTip": "WebBlazor\\WebBlazor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T15:41:10.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAL",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T15:38:53.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebRazor\\Program.cs",
+              "RelativeDocumentMoniker": "WebRazor\\Program.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebRazor\\Program.cs",
+              "RelativeToolTip": "WebRazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:39:30.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Program.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Program.cs",
+              "RelativeToolTip": "WebMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:39:16.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebRazor\\appsettings.json",
+              "RelativeDocumentMoniker": "WebRazor\\appsettings.json",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebRazor\\appsettings.json",
+              "RelativeToolTip": "WebRazor\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T15:38:48.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "WebMVC\\appsettings.json",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\appsettings.json",
+              "RelativeToolTip": "WebMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T15:38:45.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\appsettings.json",
+              "RelativeDocumentMoniker": "WebBlazor\\appsettings.json",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\appsettings.json",
+              "RelativeToolTip": "WebBlazor\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T15:38:41.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "WebBlazor\\Program.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\Program.cs",
+              "RelativeToolTip": "WebBlazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:38:41.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
