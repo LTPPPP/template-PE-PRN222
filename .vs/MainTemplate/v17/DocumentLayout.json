@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DA7ADB-3A40-4EC1-8D45-B17F408AE917}|BLL\\BLL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\bll\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DA7ADB-3A40-4EC1-8D45-B17F408AE917}|BLL\\BLL.csproj|solutionrelative:bll\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4DA7ADB-3A40-4EC1-8D45-B17F408AE917}|BLL\\BLL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\bll\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4DA7ADB-3A40-4EC1-8D45-B17F408AE917}|BLL\\BLL.csproj|solutionrelative:bll\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\dal\\repositories\\accountrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\accountrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\dal\\repositories\\interfaces\\iaccountrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\interfaces\\iaccountrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\dal\\data\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|solutionrelative:dal\\data\\maincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|solutionrelative:dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\dal\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|solutionrelative:dal\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DFEBBF56-AB14-4F20-9DE9-E79E9BE9BEAB}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -23,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{99D76C89-310D-49D6-B855-1A9CD46DE0B5}|WebRazor\\WebRazor.csproj|solutionrelative:webrazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99D76C89-310D-49D6-B855-1A9CD46DE0B5}|WebRazor\\WebRazor.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webrazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{99D76C89-310D-49D6-B855-1A9CD46DE0B5}|WebRazor\\WebRazor.csproj|solutionrelative:webrazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9FA24962-2550-4E0F-B2B1-6E31A977EF4D}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{890F5C40-4A60-4093-816B-33BD0C3EE0D0}|WebBlazor\\WebBlazor.csproj|e:\\cn\\su25_k7\\prn222\\pe_template\\main\\maintemplate\\webblazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,20 +114,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WebMVC.csproj",
-              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\WebMVC.csproj",
-              "RelativeDocumentMoniker": "WebMVC\\WebMVC.csproj",
-              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\WebMVC.csproj",
-              "RelativeToolTip": "WebMVC\\WebMVC.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T15:41:18.229Z",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AccountService.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\Services\\AccountService.cs",
+              "RelativeToolTip": "BLL\\Services\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:07:23.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Interfaces\\IAccountService.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "BLL\\Services\\Interfaces\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:06:42.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountRepositories.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Repositories\\AccountRepositories.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\AccountRepositories.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Repositories\\AccountRepositories.cs",
+              "RelativeToolTip": "DAL\\Repositories\\AccountRepositories.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:04:01.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAccountRepositories.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Repositories\\Interfaces\\IAccountRepositories.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\Interfaces\\IAccountRepositories.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Repositories\\Interfaces\\IAccountRepositories.cs",
+              "RelativeToolTip": "DAL\\Repositories\\Interfaces\\IAccountRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:02:51.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:00:06.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\AccountsController.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T07:54:43.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Program.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Program.cs",
+              "RelativeToolTip": "WebMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:39:16.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainContext.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Data\\MainContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Data\\MainContext.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Data\\MainContext.cs",
+              "RelativeToolTip": "DAL\\Data\\MainContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T07:59:41.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Product.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Models\\Product.cs",
+              "RelativeToolTip": "DAL\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T07:51:29.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Account.cs",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\Models\\Account.cs",
+              "RelativeToolTip": "DAL\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T07:51:00.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "WebBlazor.csproj",
               "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\WebBlazor.csproj",
               "RelativeDocumentMoniker": "WebBlazor\\WebBlazor.csproj",
@@ -104,20 +257,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "DAL.csproj",
               "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
               "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
               "RelativeToolTip": "DAL\\DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-30T15:38:53.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebRazor\\Program.cs",
               "RelativeDocumentMoniker": "WebRazor\\Program.cs",
@@ -129,19 +282,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Program.cs",
-              "RelativeDocumentMoniker": "WebMVC\\Program.cs",
-              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\Program.cs",
-              "RelativeToolTip": "WebMVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:39:16.48Z"
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "WebMVC\\appsettings.json",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\appsettings.json",
+              "RelativeToolTip": "WebMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T15:38:45.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "WebMVC.csproj",
+              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\WebMVC.csproj",
+              "RelativeDocumentMoniker": "WebMVC\\WebMVC.csproj",
+              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\WebMVC.csproj",
+              "RelativeToolTip": "WebMVC\\WebMVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T15:41:18.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebRazor\\appsettings.json",
               "RelativeDocumentMoniker": "WebRazor\\appsettings.json",
@@ -153,19 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\appsettings.json",
-              "RelativeDocumentMoniker": "WebMVC\\appsettings.json",
-              "ToolTip": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebMVC\\appsettings.json",
-              "RelativeToolTip": "WebMVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T15:38:45.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\appsettings.json",
               "RelativeDocumentMoniker": "WebBlazor\\appsettings.json",
@@ -177,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\WebBlazor\\Program.cs",
               "RelativeDocumentMoniker": "WebBlazor\\Program.cs",

@@ -1,3 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using DAL.Data;
+using BLL.Services.Interfaces;
+using BLL.Services;
+using DAL.Repositories.Interfaces;
+using DAL.Repositories;
 namespace WebMVC
 {
     public class Program
@@ -5,20 +12,22 @@ namespace WebMVC
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<MainContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("MainContext") ?? throw new InvalidOperationException("Connection string 'MainContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             //builder.Services.AddDbContext<Web_MVCContext>(options =>
             //   options.UseSqlServer(builder.Configuration.GetConnectionString("Web_MVCContext") ?? throw new InvalidOperationException("Connection string 'Web_MVCContext' not found.")));
-            //builder.Services.AddScoped<IProductService, ProductService>();
-            //builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IAccountRepositories, AccountRepositories>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                // The default HSTS value is 30 days. You may want to change this for Accountion scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
