@@ -1,0 +1,144 @@
+﻿@page "/accounts/edit"
+@using Microsoft.EntityFrameworkCore
+@using DAL.Models
+@using BLL.Services.Interfaces
+@inject IAccountService _accountService
+@inject IDbContextFactory<DAL.Data.MainContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Edit</PageTitle>
+
+<h1>Edit</h1>
+
+<h2>Account</h2>
+<hr />
+@if (Account is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="Account" OnValidSubmit="UpdateAccount" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary role="alert"/>
+                <input type="hidden" name="Account.Id" value="@Account.Id" />
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <InputText id="name" @bind-Value="Account.Name" class="form-control" />
+                    <ValidationMessage For="() => Account.Name" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <InputText id="email" @bind-Value="Account.Email" class="form-control" />
+                    <ValidationMessage For="() => Account.Email" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="passwordhash" class="form-label">PasswordHash:</label>
+                    <InputText id="passwordhash" @bind-Value="Account.PasswordHash" class="form-control" />
+                    <ValidationMessage For="() => Account.PasswordHash" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="createdat" class="form-label">CreatedAt:</label>
+                    <InputDate id="createdat" @bind-Value="Account.CreatedAt" class="form-control" />
+                    <ValidationMessage For="() => Account.CreatedAt" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="updatedat" class="form-label">UpdatedAt:</label>
+                    <InputDate id="updatedat" @bind-Value="Account.UpdatedAt" class="form-control" />
+                    <ValidationMessage For="() => Account.UpdatedAt" class="text-danger" />
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </EditForm>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/accounts">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromQuery]
+    private int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    private Account? Account { get; set; }
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     using var context = DbFactory.CreateDbContext();
+    //     Account ??= await context.Account.FirstOrDefaultAsync(m => m.Id == Id);
+
+    //     if (Account is null)
+    //     {
+    //         NavigationManager.NavigateTo("notfound");
+    //     }
+    // }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Account ??= await _accountService.GetByIdAsync(Id);
+        if (Account is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more information, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    // private async Task UpdateAccount()
+    // {
+    //     using var context = DbFactory.CreateDbContext();
+    //     context.Attach(Account!).State = EntityState.Modified;
+
+    //     try
+    //     {
+    //         await context.SaveChangesAsync();
+    //     }
+    //     catch (DbUpdateConcurrencyException)
+    //     {
+    //         if (!AccountExists(Account!.Id))
+    //         {
+    //             NavigationManager.NavigateTo("notfound");
+    //         }
+    //         else
+    //         {
+    //             throw;
+    //         }
+    //     }
+
+    //     NavigationManager.NavigateTo("/accounts");
+    // }
+
+    private async Task UpdateAccount()
+    {
+        if (Account is null)
+        {
+            return;
+        }
+        try
+        {
+            await _accountService.UpdateAsync(Account);
+            NavigationManager.NavigateTo("/accounts/index");
+        }
+        catch (Exception ex)
+        {
+            // Handle exceptions, e.g., show an error message
+            Console.Error.WriteLine($"Error updating account: {ex.Message}");
+        }
+    }
+
+    // private bool AccountExists(int id)
+    // {
+    //     using var context = DbFactory.CreateDbContext();
+    //     return context.Account.Any(e => e.Id == id);
+    // }
+
+    private bool AccountExists(int id)
+    {
+        return _accountService.GetByIdAsync(id) != null;
+    }
+}

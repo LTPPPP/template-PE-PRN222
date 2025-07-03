@@ -1,5 +1,10 @@
 using WebBlazor.Components;
-
+using DAL.Data;
+using BLL.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using BLL.Services;
+using DAL.Repositories.Interfaces;
+using DAL.Repositories;
 namespace WebBlazor
 {
     public class Program
@@ -11,14 +16,18 @@ namespace WebBlazor
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
-   //         builder.Services.AddDbContextFactory<Web_MVCContext>(options =>
-   //options.UseSqlServer(builder.Configuration.GetConnectionString("Web_MVCContext") ?? throw new InvalidOperationException("Connection string 'Web_MVCContext' not found.")));
+            builder.Services.AddDbContextFactory<MainContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("MainContext") ?? throw new InvalidOperationException("Connection string 'MainContext' not found.")));
 
-   //         builder.Services.AddQuickGridEntityFrameworkAdapter();
+            builder.Services.AddQuickGridEntityFrameworkAdapter();
 
-   //         builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-   //         builder.Services.AddScoped<IProductService, ProductService>();
-   //         builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+            builder.Services.AddQuickGridEntityFrameworkAdapter();
+
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+            builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IAccountRepositories, AccountRepositories>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,6 +36,7 @@ namespace WebBlazor
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
+    app.UseMigrationsEndPoint();
             }
 
             app.UseHttpsRedirection();

@@ -1,0 +1,56 @@
+﻿@page "/accounts/index"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using DAL.Models
+@using DAL.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<DAL.Data.MainContext> DbFactory
+@using BLL.Services.Interfaces
+@inject IAccountService AccountService
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="accounts/create">Create New</a>
+</p>
+
+@* <QuickGrid Class="table" Items="context.Account"> *@
+<QuickGrid Class="table" Items="accounts">
+    <PropertyColumn Property="account => account.Name" />
+    <PropertyColumn Property="account => account.Email" />
+    <PropertyColumn Property="account => account.PasswordHash" />
+    <PropertyColumn Property="account => account.CreatedAt" />
+    <PropertyColumn Property="account => account.UpdatedAt" />
+
+    <TemplateColumn Context="account">
+        <a href="@($"accounts/edit?id={account.Id}")">Edit</a> |
+        <a href="@($"accounts/details?id={account.Id}")">Details</a> |
+        <a href="@($"accounts/delete?id={account.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    // private MainContext context = default!;
+
+    // protected override void OnInitialized()
+    // {
+    //     context = DbFactory.CreateDbContext();
+    // }
+
+    // public async ValueTask DisposeAsync() => await context.DisposeAsync();
+        private IQueryable<Account> accounts = default!;
+
+        protected override async Task OnInitializedAsync()
+        {
+            var accountList = await AccountService.GetAllAsync();
+            accounts = accountList.AsQueryable();
+        }
+
+        public async ValueTask DisposeAsync()
+        {
+            // Clean up if needed
+            await Task.CompletedTask;
+        }
+}

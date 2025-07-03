@@ -1,0 +1,100 @@
+﻿@page "/accounts/create"
+@using Microsoft.EntityFrameworkCore
+@using DAL.Models
+@using BLL.Services.Interfaces
+@inject IAccountService AccountService
+@inject IDbContextFactory<DAL.Data.MainContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Account</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Account" OnValidSubmit="AddAccount" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label> 
+                <InputText id="name" @bind-Value="Account.Name" class="form-control" /> 
+                <ValidationMessage For="() => Account.Name" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label> 
+                <InputText id="email" @bind-Value="Account.Email" class="form-control" /> 
+                <ValidationMessage For="() => Account.Email" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="passwordhash" class="form-label">PasswordHash:</label> 
+                <InputText id="passwordhash" @bind-Value="Account.PasswordHash" class="form-control" /> 
+                <ValidationMessage For="() => Account.PasswordHash" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="createdat" class="form-label">CreatedAt:</label> 
+                <InputDate id="createdat" @bind-Value="Account.CreatedAt" class="form-control" /> 
+                <ValidationMessage For="() => Account.CreatedAt" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="updatedat" class="form-label">UpdatedAt:</label> 
+                <InputDate id="updatedat" @bind-Value="Account.UpdatedAt" class="form-control" /> 
+                <ValidationMessage For="() => Account.UpdatedAt" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/accounts">Back to List</a>
+</div>
+
+@code {
+    // [SupplyParameterFromForm]
+    // private Account Account { get; set; } = new();
+
+    // private async Task AddAccount()
+    // {
+    //     using var context = DbFactory.CreateDbContext();
+    //     context.Account.Add(Account);
+    //     await context.SaveChangesAsync();
+    //     NavigationManager.NavigateTo("/accounts");
+    // }
+    [SupplyParameterFromForm]
+    private Account Account { get; set; } = new();
+    private string errorMessage = string.Empty;
+    private bool isSubmitting = false;
+
+    protected override void OnInitialized()
+    {
+        // Set default values for timestamp fields
+        Account.CreatedAt = DateTime.Now;
+        Account.UpdatedAt = DateTime.Now;
+    }
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddAccount()
+    {
+        isSubmitting = true;
+        errorMessage = string.Empty;
+
+        try
+        {
+            // Update the UpdatedAt timestamp before saving
+            Account.UpdatedAt = DateTime.Now;
+
+            await AccountService.AddAsync(Account);
+            NavigationManager.NavigateTo("/accounts/index");
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred while creating the account: {ex.Message}";
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+}
