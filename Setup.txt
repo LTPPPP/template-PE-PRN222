@@ -1,8 +1,12 @@
-dotnet down : 
+dotnet download for each project: 
 
 dotnet tool install --global dotnet-ef
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet add package Microsoft.AspNetCore.SignalR 
+dotnet add package Microsoft.AspNetCore.SignalR.Client
+
 
 database first :
 
@@ -11,5 +15,5 @@ dotnet ef dbcontext scaffold "Server=LTP; Database=BrainStormEra;User ID=sa;Pass
 
 Code first : 
 
-dotnet ef migrations add InitProductDB --project ../DataAccessLayer --startup-project ../WebRazorPage
+dotnet ef migrations add Init --project ./DAL --startup-project ./WebMVC
 
