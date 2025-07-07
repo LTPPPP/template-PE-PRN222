@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\BLL.csproj": {}
+    "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\BLL.csproj": {
+    "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\BLL.csproj",
+        "projectUniqueName": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\BLL.csproj",
+        "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-        "outputPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\BLL\\obj\\",
+        "outputPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\CODELANG\\UNITY\\setup\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj": {
-                "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj"
+              "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\DAL.csproj"
               }
             }
           }
@@ -54,6 +54,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -85,14 +93,14 @@
         }
       }
     },
-    "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj": {
+    "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
+        "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-        "outputPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\obj\\",
+        "outputPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\CODELANG\\UNITY\\setup\\NuGetPackages"

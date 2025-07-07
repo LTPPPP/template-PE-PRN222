@@ -4696,11 +4696,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
+      "projectUniqueName": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\DAL.csproj",
+      "projectPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-      "outputPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Main\\MainTemplate\\DAL\\obj\\",
+      "outputPath": "E:\\CN\\SU25_K7\\PRN222\\PE_TEMPLATE\\Dev\\template-PE-PRN222\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\CODELANG\\UNITY\\setup\\NuGetPackages"

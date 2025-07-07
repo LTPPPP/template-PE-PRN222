@@ -4,6 +4,8 @@ using DAL.Data;
 using DAL.Repositories;
 using DAL.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.SignalR;
+using WebRazor.Hubs;
 
 namespace WebRazor
 {
@@ -20,6 +22,22 @@ namespace WebRazor
 
             builder.Services.AddScoped<IAccountService, AccountService>();
             builder.Services.AddScoped<IAccountRepositories, AccountRepositories>();
+
+            // Add SignalR
+            builder.Services.AddSignalR();
+
+            // Add CORS policy for SignalR
+            var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>() ?? new string[0];
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(policy =>
+                {
+                    policy.WithOrigins(allowedOrigins)
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials(); // SignalR cần dòng này
+                });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -35,9 +53,15 @@ namespace WebRazor
 
             app.UseRouting();
 
+            // Enable CORS for SignalR
+            app.UseCors();
+
             app.UseAuthorization();
 
             app.MapRazorPages();
+
+            // Add SignalR routing
+            app.MapHub<DataSignalR>("/DataSignalRChanel");
 
             app.Run();
         }

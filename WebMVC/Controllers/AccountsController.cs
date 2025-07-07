@@ -100,6 +100,8 @@ namespace WebMVC.Controllers
             if (ModelState.IsValid)
             {
                 await _accountService.AddAsync(account);
+                // Notify all clients about the account update
+                await _accountService.NotifyLoadAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(account);
@@ -182,6 +184,8 @@ namespace WebMVC.Controllers
                 try
                 {
                     await _accountService.UpdateAsync(account);
+                    // Notify all clients about the account update
+                    await _accountService.NotifyLoadAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -254,6 +258,8 @@ namespace WebMVC.Controllers
             if (account != null)
             {
                 await _accountService.DeleteAsync(account);
+                // Notify all clients about the account update
+                await _accountService.NotifyLoadAsync();
             }
             return RedirectToAction(nameof(Index));
         }

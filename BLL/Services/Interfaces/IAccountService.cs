@@ -14,6 +14,6 @@ namespace BLL.Services.Interfaces
         Task AddAsync(Account item);
         Task UpdateAsync(Account item);
         Task DeleteAsync(object id);
-
+        Task NotifyLoadAsync();
     }
 }
